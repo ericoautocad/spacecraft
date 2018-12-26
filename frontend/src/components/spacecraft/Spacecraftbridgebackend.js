@@ -1,6 +1,6 @@
 import axios from 'axios' 
 
-const ENTRYPOINTSERVER = 'http://192.168.99.100' 
+const ENTRYPOINTSERVER = 'http://localhost' 
 
 const findspacecraft = () => { 
     

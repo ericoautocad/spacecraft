@@ -8,7 +8,15 @@ class Hour implements SpacecraftStopCalculationInterface
     public function getTotalStopSpacecraft($totaltime , $mglt, $distance)
     {
         
-        return floor( $distance / ($mglt * $totaltime) ); 
+    	if($distance != 0){ 
+    		
+    		return floor( $distance / ($mglt * $totaltime) ); 
+
+    	}else{ 
+    		
+    		return 0; 
+
+    	} 
         
     } 
 

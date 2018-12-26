@@ -7,10 +7,10 @@ services:
    ports:
    - "80:80"
    volumes:
-   - C:/Users/Erico/Documents/spacecraftstopcalculation/backend/server/nginx.conf:/etc/nginx/nginx.conf
-   - C:/Users/Erico/Documents/spacecraftstopcalculation/backend/server/app.vhost:/etc/nginx/conf.d/app.vhost
-   - C:/Users/Erico/Documents/spacecraftstopcalculation/backend/server/nginx/logs:/var/log/nginx/ 
-   - C:/Users/Erico/Documents/spacecraftstopcalculation/backend/application:/application 
+   - ./backend/server/nginx.conf:/etc/nginx/nginx.conf
+   - ./backend/server/app.vhost:/etc/nginx/conf.d/app.vhost
+   - ./backend/server/nginx/logs:/var/log/nginx/ 
+   - ./backend/application:/application 
    links: 
    - php
    depends_on:
@@ -20,13 +20,13 @@ services:
    build: ./dockerconfig/customphpimage/
    container_name: php7
    volumes:
-   - C:/Users/Erico/Documents/spacecraftstopcalculation/backend/application:/application 
+   - ./backend/application:/application 
   
   nodejs: 
    build: ./dockerconfig/customnodejsimage/
    container_name: node.js
    volumes: 
-   - C:/Users/Erico/Documents/spacecraftstopcalculation/frontend:/var/www/application 
+   - ./frontend:/var/www/application 
    ports: 
    - "3000:3000" 
    command: "sh -c 'npm start'" 

@@ -10,7 +10,15 @@ class Year implements SpacecraftStopCalculationInterface
     public function getTotalStopSpacecraft($totaltime , $mglt, $distance)
     {
         
-        return floor( $distance / ( $totaltime * $mglt * self::HOURS_PER_YEAR ) ); 
+        if($distance != 0){ 
+    		
+    		return floor( $distance / ( $totaltime * $mglt * self::HOURS_PER_YEAR ) ); 
+
+    	}else{ 
+    		
+    		return 0; 
+
+    	} 
         
     } 
 

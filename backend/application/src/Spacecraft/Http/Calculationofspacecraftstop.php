@@ -31,6 +31,8 @@ class Calculationofspacecraftstop
         $stopcalculation = new \Spacecraft\Model\Spacecraftstopcalculation( $factory ); 
         
         $distance = $request->getParam("distance"); 
+
+        $distance = intval($distance); 
         
         $listcollection = $stopcalculation->getInformacaoStopSpacecraft($listcollection, $distance); 
         

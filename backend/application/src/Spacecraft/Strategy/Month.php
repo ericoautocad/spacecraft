@@ -10,7 +10,15 @@ class Month implements SpacecraftStopCalculationInterface
     public function getTotalStopSpacecraft($totaltime , $mglt, $distance)
     {
         
-        return floor( $distance / ( $totaltime * $mglt * self::HOURS_PER_MONTH ) ); 
+        if($distance != 0){ 
+    		
+    		return floor( $distance / ( $totaltime * $mglt * self::HOURS_PER_MONTH ) ); 
+
+    	}else{ 
+    		
+    		return 0; 
+
+    	}  
         
     } 
 

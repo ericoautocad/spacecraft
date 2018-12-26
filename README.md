@@ -44,3 +44,6 @@ se não funcionar tente usar o comando:
 7\) Execute os test automatizados com o comando: 
 
 `/vendor/bin/phpunit` 
+
+8\) Veja uma simples descrição do projeto no link: https://tinyurl.com/yd4b34cz 
+

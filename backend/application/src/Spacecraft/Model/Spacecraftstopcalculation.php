@@ -66,9 +66,11 @@ class SpacecraftStopCalculation
             
             $informationspacecraft["totalnumberofstop"] = "unknown"; 
 
-        }
+        } 
+
+        $infospacecraft = ["name" => $informationspacecraft["name"], "totalnumberofstop" => $informationspacecraft["totalnumberofstop"] ];
         
-        $this->list[] = $informationspacecraft; 
+        $this->list[] = $infospacecraft; 
         
     } 
 

@@ -2,20 +2,22 @@
 
 require "vendor/autoload.php"; 
 
-// $app = new Slim\App(); 
-
 $configuration = [
     'settings' => [
       'displayErrorDetails' => true,
   ],
 ];
-$c = new \Slim\Container($configuration);
-$app = new \Slim\App($c); $app->options('/{routes:.}', function($resquest, $response, $args){ 
+$c = new \Slim\Container($configuration); 
+
+$application = new \Slim\App($c); 
+
+$application->options('/{routes:.}', function($resquest, $response, $args){ 
   
   return $response; 
   
 }); 
-$app->add(function($request, $response, $next){ 
+
+$application->add(function($request, $response, $next){ 
   
   $response = $next($request, $response); 
   
@@ -26,8 +28,8 @@ $app->add(function($request, $response, $next){
   
 }); 
 
-$app->get('/', \Spacecraft\Http\Starships::class); 
+$application->get('/', \Spacecraft\Http\Starships::class); 
 
-$app->post('/', \Spacecraft\Http\Calculationofspacecraftstop::class); 
+$application->post('/', \Spacecraft\Http\Calculationofspacecraftstop::class); 
 
-$app->run();
+$application->run();

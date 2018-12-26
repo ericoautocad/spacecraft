@@ -1,0 +1,560 @@
+2018/12/23 12:26:57 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2018/12/23 13:23:24 [error] 6#6: *3 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET /index.php HTTP/1.1", host: "192.168.99.100"
+2018/12/23 13:23:31 [error] 6#6: *5 open() "/usr/share/nginx/html/index" failed (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET /index HTTP/1.1", host: "192.168.99.100"
+2018/12/23 14:05:08 [emerg] 1#1: "daemon" directive is duplicate in /etc/nginx/nginx.conf:3
+2018/12/23 14:07:58 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 14:14:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 14:29:33 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 14:32:18 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 15:38:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 15:51:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 16:33:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 16:59:11 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:06:25 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:09:33 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:29:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:31:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:35:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:43:03 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:46:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:47:50 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:49:05 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:49:21 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:49:22 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:49:23 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:49:23 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:49:24 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:49:42 [error] 6#6: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:50:24 [error] 6#6: *13 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:52:26 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:52:33 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:52:34 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:52:35 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:54:10 [error] 6#6: *6 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:56:10 [emerg] 1#1: "daemon" directive is duplicate in /etc/nginx/nginx.conf:3
+2018/12/23 17:57:35 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 17:57:48 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 17:57:49 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:05:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 18:06:05 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:06:06 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:06:19 [error] 6#6: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET /index.html HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:10:35 [emerg] 1#1: invalid number of arguments in "fastcgi_index" directive in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 18:12:57 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 18:14:37 [error] 6#6: *4 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:14:55 [error] 6#6: *9 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:17:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:18
+2018/12/23 18:18:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:18
+2018/12/23 18:21:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:18
+2018/12/23 18:21:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 18:21:59 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:24:15 [error] 6#6: *4 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:30:35 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 18:30:49 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:30:50 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:30:51 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:35:42 [emerg] 1#1: host not found in upstream "host" in /etc/nginx/conf.d/app.vhost:12
+2018/12/23 18:37:50 [emerg] 1#1: host not found in upstream "host" in /etc/nginx/conf.d/app.vhost:12
+2018/12/23 18:39:27 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 18:43:45 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 18:44:34 [error] 6#6: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 18:52:52 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 19:08:32 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 19:09:37 [error] 7#7: *1 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 19:18:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 19:25:54 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 19:29:51 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 19:31:55 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 19:43:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 19:48:32 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 20:11:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 20:54:18 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 20:59:20 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 21:04:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 21:04:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 21:08:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/app.vhost:21
+2018/12/23 21:11:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 21:12:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 21:13:40 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 21:13:40 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2018/12/23 21:13:41 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 21:13:41 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100", referrer: "http://192.168.99.100/"
+2018/12/23 21:15:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/23 22:13:45 [error] 6#6: *56 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: FastRoute\BadRouteException
+Message: Cannot register two routes matching &quot;/&quot; for method &quot;GET&quot;
+File: /application/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php
+Line: 86
+Trace: #0 /application/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php(30): FastRoute\DataGenerator\RegexBasedAbstract->addStaticRoute('GET', Array, 'route1')
+#1 /application/vendor/nikic/fast-route/src/RouteCollector.php(44): FastRoute\DataGenerator\RegexBasedAbstract->addRoute('GET', Array, 'route1')
+#2 /application/vendor/slim/slim/Slim/Router.php(227): FastRoute\RouteCollector->addRoute(Array, '/', 'route1')
+#3 /application/vendor/nikic/fast-route/src/functions.php(25): Slim\Router->Slim\{closure}(Object(FastRoute\RouteCollector))
+#4 /application/vendor/slim/slim/Slim/Router.php(238): FastRoute\simpleDispatcher(Object(Closure), Array)
+#5 /application/vendor/slim/slim/Slim/Router.php(191): Slim\Router->createDispatcher()
+#6 /applica" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:49:54 [error] 6#6: *75 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET /teste HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:49:59 [error] 6#6: *78 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:50:55 [error] 6#6: *81 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:52:39 [error] 6#6: *92 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:52:41 [error] 6#6: *92 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:53:15 [error] 6#6: *96 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:53:16 [error] 6#6: *96 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:53:16 [error] 6#6: *96 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Starships does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/slim/slim/Slim/MiddlewareA" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:59:00 [error] 6#6: *101 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Class 'Spacecraft\Starships' not found
+File: /application/index.php
+Line: 10
+Trace: #0 /application/vendor/pimple/pimple/src/Pimple/Container.php(118): {closure}(Object(Slim\Container))
+#1 /application/vendor/slim/slim/Slim/Container.php(123): Pimple\Container->offsetGet('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/CallableResolver.php(86): Slim\Container->get('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#4 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#5 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#6 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /application/vendor/slim/slim/Slim/Route.p" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:59:01 [error] 6#6: *101 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Class 'Spacecraft\Starships' not found
+File: /application/index.php
+Line: 10
+Trace: #0 /application/vendor/pimple/pimple/src/Pimple/Container.php(118): {closure}(Object(Slim\Container))
+#1 /application/vendor/slim/slim/Slim/Container.php(123): Pimple\Container->offsetGet('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/CallableResolver.php(86): Slim\Container->get('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#4 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#5 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#6 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /application/vendor/slim/slim/Slim/Route.p" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:59:02 [error] 6#6: *101 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Class 'Spacecraft\Starships' not found
+File: /application/index.php
+Line: 10
+Trace: #0 /application/vendor/pimple/pimple/src/Pimple/Container.php(118): {closure}(Object(Slim\Container))
+#1 /application/vendor/slim/slim/Slim/Container.php(123): Pimple\Container->offsetGet('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/CallableResolver.php(86): Slim\Container->get('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#4 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#5 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#6 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /application/vendor/slim/slim/Slim/Route.p" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 22:59:03 [error] 6#6: *101 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Class 'Spacecraft\Starships' not found
+File: /application/index.php
+Line: 10
+Trace: #0 /application/vendor/pimple/pimple/src/Pimple/Container.php(118): {closure}(Object(Slim\Container))
+#1 /application/vendor/slim/slim/Slim/Container.php(123): Pimple\Container->offsetGet('Spacecraft\\Star...')
+#2 /application/vendor/slim/slim/Slim/CallableResolver.php(86): Slim\Container->get('Spacecraft\\Star...')
+#3 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Star...')
+#4 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Star...')
+#5 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Star...')
+#6 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /application/vendor/slim/slim/Slim/Route.p" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:21:41 [error] 6#6: *162 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Http\Calculationofspacecraftstop does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Http...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Http...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Http...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/sli" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "POST / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:26:04 [error] 6#6: *164 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Http\Calculationofspacecraftstop does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Http...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Http...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Http...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/sli" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "POST / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:33:37 [error] 6#6: *175 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: RuntimeException
+Message: Callable Spacecraft\Http\Calculationofspacecraftstop does not exist
+File: /application/vendor/slim/slim/Slim/CallableResolver.php
+Line: 90
+Trace: #0 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Http...')
+#1 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Http...')
+#2 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Http...')
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /application/vendor/sli" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "POST / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:58:23 [error] 6#6: *186 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:58:39 [error] 6#6: *186 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:58:49 [error] 6#6: *191 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/23 23:59:50 [error] 6#6: *194 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: ParseError
+Message: syntax error, unexpected '}'
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 44
+Trace: #0 /application/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/application/ve...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Spacecraft\\Http...')
+#2 [internal function]: spl_autoload_call('Spacecraft\\Http...')
+#3 /application/vendor/slim/slim/Slim/CallableResolver.php(89): class_exists('Spacecraft\\Http...')
+#4 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Http...')
+#5 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Http...')
+#6 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Http...')
+#7 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\H" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:00:16 [error] 6#6: *194 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: ParseError
+Message: syntax error, unexpected '}'
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 44
+Trace: #0 /application/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/application/ve...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Spacecraft\\Http...')
+#2 [internal function]: spl_autoload_call('Spacecraft\\Http...')
+#3 /application/vendor/slim/slim/Slim/CallableResolver.php(89): class_exists('Spacecraft\\Http...')
+#4 /application/vendor/slim/slim/Slim/CallableResolver.php(67): Slim\CallableResolver->resolveCallable('Spacecraft\\Http...')
+#5 /application/vendor/slim/slim/Slim/CallableResolverAwareTrait.php(45): Slim\CallableResolver->resolve('Spacecraft\\Http...')
+#6 /application/vendor/slim/slim/Slim/Route.php(351): Slim\Routable->resolveCallable('Spacecraft\\Http...')
+#7 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\H" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:01:16 [error] 6#6: *194 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: GuzzleHttp\Exception\RequestException
+Message: cURL error 3: &lt;url&gt; malformed (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+File: /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php
+Line: 186
+Trace: #0 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /application/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:01:25 [error] 6#6: *194 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: GuzzleHttp\Exception\RequestException
+Message: cURL error 3: &lt;url&gt; malformed (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+File: /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php
+Line: 186
+Trace: #0 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /application/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:03:09 [error] 6#6: *200 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:04:46 [error] 6#6: *202 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:05:11 [error] 6#6: *202 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:05:47 [error] 6#6: *202 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 28
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:06:16 [error] 6#6: *202 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:06:50 [error] 6#6: *202 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 29
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:07:12 [error] 6#6: *202 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Cannot use object of type stdClass as array
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 30
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Object(Slim\Http\R" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:09:10 [error] 6#6: *209 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Call to undefined method GuzzleHttp\Psr7\Response::write()
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 48
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Obj" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:10:06 [error] 6#6: *209 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Call to undefined method GuzzleHttp\Psr7\Response::write()
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 48
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Obj" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:11:07 [error] 6#6: *209 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Call to undefined method GuzzleHttp\Psr7\Response::write()
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 48
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Obj" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:11:44 [error] 6#6: *209 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: Error
+Message: Call to undefined method GuzzleHttp\Psr7\Response::write()
+File: /application/src/Spacecraft/Http/Starships.php
+Line: 48
+Trace: #0 [internal function]: Spacecraft\Http\Starships->__invoke(Object(Slim\Http\Request), Object(GuzzleHttp\Psr7\Response), Array)
+#1 /application/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php(41): call_user_func(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#2 /application/vendor/slim/slim/Slim/Route.php(356): Slim\Handlers\Strategies\RequestResponse->__invoke(Array, Object(Slim\Http\Request), Object(Slim\Http\Response), Array)
+#3 /application/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route->__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#4 /application/vendor/slim/slim/Slim/Route.php(334): Slim\Route->callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /application/vendor/slim/slim/Slim/App.php(515): Slim\Route->run(Obj" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:13:57 [error] 6#6: *216 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: GuzzleHttp\Exception\RequestException
+Message: cURL error 3: &lt;url&gt; malformed (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+File: /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php
+Line: 186
+Trace: #0 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /application/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:14:07 [error] 6#6: *216 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: GuzzleHttp\Exception\RequestException
+Message: cURL error 3: &lt;url&gt; malformed (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+File: /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php
+Line: 186
+Trace: #0 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /application/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:14:23 [error] 6#6: *216 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: GuzzleHttp\Exception\RequestException
+Message: cURL error 3: &lt;url&gt; malformed (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+File: /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php
+Line: 186
+Trace: #0 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /application/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 00:14:27 [error] 6#6: *216 FastCGI sent in stderr: "PHP message: Slim Application Error:
+Type: GuzzleHttp\Exception\RequestException
+Message: cURL error 3: &lt;url&gt; malformed (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+File: /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php
+Line: 186
+Trace: #0 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 /application/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 /application/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__" while reading response header from upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "192.168.99.100"
+2018/12/24 14:34:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 14:40:56 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 16:26:34 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 16:47:13 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 17:03:18 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 17:11:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 17:28:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 17:59:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 19:22:59 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 20:44:42 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 20:52:36 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 21:05:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 21:09:23 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 21:42:50 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 21:48:02 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 21:52:09 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 22:03:25 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/24 22:08:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/25 14:24:51 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/25 14:30:44 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/25 14:33:04 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/25 15:03:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/25 16:03:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 00:27:33 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 00:55:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 02:41:24 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 02:42:30 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 02:45:20 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 02:47:34 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 03:17:56 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 03:28:52 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 03:31:10 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 09:46:11 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:02:08 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:08:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:09:55 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:12:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:17:38 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:19:06 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:22:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:30:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:55:15 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:57:18 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 10:59:44 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 11:13:55 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 11:37:59 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 11:39:09 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/12/26 11:46:17 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored

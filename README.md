@@ -1,4 +1,5 @@
 #Arquitetura divida em: uma aplicação php no backend e uma aplicação em react no frontend 
+
 Toda infraestrutura do projeto foi produzida para rodar em ambiente de containers docker. 
 Siga os seguintes passo para rodar as duas aplicações: 
 Gere o build necessário para realizar as configurações e instalar as depedências para os 

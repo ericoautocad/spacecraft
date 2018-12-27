@@ -7,9 +7,9 @@ $configuration = [
       'displayErrorDetails' => true,
   ],
 ];
-$c = new \Slim\Container($configuration); 
+$config = new \Slim\Container($configuration); 
 
-$application = new \Slim\App($c); 
+$application = new \Slim\App($config); 
 
 $application->options('/{routes:.}', function($resquest, $response, $args){ 
   
